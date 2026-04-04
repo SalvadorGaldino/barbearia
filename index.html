@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Professional barbershop specializing in modern and classic haircuts, fades, and beard trims. Style, precision, and personalized service. Book your appointment today!">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Professional Barber Shop | Masculine Style</title>
+</head>
+
+<body itemscope itemtype="https://schema.org/LocalBusiness">
+
+  <!--==================== HEADER & NAV ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">
+        <i class="ri-scissors-line"></i> BARBERSHOP
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Works</a></li>
+          <li class="nav__item"><a href="#service" class="nav__link">Services</a></li>
+          <li class="nav__item"><a href="#expert" class="nav__link">Experts</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__actions">
+        <!-- Dark Mode Toggle -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="ri-moon-line"></i>
+        </button>
+
+        <!-- Book Now Button -->
+        <button class="btn btn--small" id="book-btn">Book Now</button>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+
+    <!--==================== HOME SECTION ====================-->
+    <section class="home" id="home">
+      <div class="home__bg">
+        <img src="assets/img/home-bg.png" alt="Barbershop background" class="home__bg-img">
+        <div class="home__overlay"></div>
+      </div>
+
+      <div class="home__container container grid">
+        <div class="home__data">
+          <span class="home__badge"><i class="ri-scissors-line"></i> Premium Barbershop</span>
+          <h1 class="home__title">HAIRCUT AND BEARD <br> SPECIALISTS</h1>
+          <p class="home__description">
+            Barbershop specializing in haircuts, fades, classic shaves, and beard design for men.
+            Our team of professional barbers guarantees impeccable results, tailored to your style.
+          </p>
+          <div class="home__buttons">
+            <a href="#work" class="btn">See Our Haircut Work</a>
+            <button class="btn btn--ghost" id="home-book-btn">
+              <i class="ri-calendar-2-line"></i> Book Appointment
+            </button>
+          </div>
+        </div>
+
+        <div class="home__logo">
+          <img src="assets/img/home-logo.svg" alt="Barbershop Logo" class="home__logo-img">
+        </div>
+      </div>
+
+      <div class="home__scroll">
+        <a href="#about" class="home__scroll-link">
+          <i class="ri-arrow-down-line"></i>
+          <span>Scroll Down</span>
+        </a>
+      </div>
+    </section>
+
+    <!--==================== STATS STRIP ====================-->
+    <div class="stats">
+      <div class="container stats__container">
+        <div class="stats__item">
+          <span class="stats__number">99%</span>
+          <span class="stats__label">Customer Satisfaction</span>
+        </div>
+        <div class="stats__divider"></div>
+        <div class="stats__item">
+          <span class="stats__number">7+</span>
+          <span class="stats__label">Years of Experience</span>
+        </div>
+        <div class="stats__divider"></div>
+        <div class="stats__item">
+          <span class="stats__number">4</span>
+          <span class="stats__label">Expert Barbers</span>
+        </div>
+        <div class="stats__divider"></div>
+        <div class="stats__item">
+          <span class="stats__number">5K+</span>
+          <span class="stats__label">Happy Clients</span>
+        </div>
+      </div>
+    </div>
+
+    <!--==================== ABOUT SECTION ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__image">
+          <img src="assets/img/about-img.png" alt="About our barbershop" class="about__img">
+          <div class="about__badge">
+            <span class="about__badge-number">7+</span>
+            <span class="about__badge-text">Years of <br> Experience</span>
+          </div>
+        </div>
+
+        <div class="about__data">
+          <h2 class="section__title about__title">ABOUT OUR <br> LOCAL BARBERSHOP</h2>
+          <p class="about__description">
+            At our barbershop, we combine the tradition of classic haircuts with modern trends
+            to offer you a unique experience. Every service is designed to highlight your personality.
+          </p>
+
+          <div class="about__features">
+            <div class="about__feature">
+              <i class="ri-scissors-2-line"></i>
+              <div>
+                <h4>Expert Cuts</h4>
+                <p>Precision cutting tailored to your face shape and style</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <i class="ri-award-line"></i>
+              <div>
+                <h4>Premium Service</h4>
+                <p>Top-quality products and professional techniques</p>
+              </div>
+            </div>
+            <div class="about__feature">
+              <i class="ri-heart-line"></i>
+              <div>
+                <h4>Customer First</h4>
+                <p>Personalized attention and a welcoming atmosphere</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about__counters">
+            <div class="about__counter">
+              <span class="about__counter-number" data-target="99">0</span>
+              <span class="about__counter-symbol">%</span>
+              <p class="about__counter-label">CUSTOMER <br> SATISFACTION</p>
+            </div>
+            <div class="about__counter">
+              <span class="about__counter-number" data-target="7">0</span>
+              <span class="about__counter-symbol">+</span>
+              <p class="about__counter-label">YEARS OF <br> EXPERIENCE</p>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== WORKS SECTION ====================-->
+    <section class="work section" id="work">
+      <div class="container">
+        <h2 class="section__title">DISCOVER <br> OUR WORKS</h2>
+        <p class="work__description">
+          Our work includes both vintage and modern styles. We stay up-to-date with the latest
+          trends to guarantee the best possible service.
+        </p>
+
+        <!-- Filter Buttons (NEW FEATURE) -->
+        <div class="work__filters">
+          <button class="work__filter active-filter" data-filter="all">All</button>
+          <button class="work__filter" data-filter="fade">Fade</button>
+          <button class="work__filter" data-filter="beard">Beard</button>
+          <button class="work__filter" data-filter="classic">Classic</button>
+        </div>
+
+        <div class="swiper work__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide work__card" data-category="fade">
+              <img src="assets/img/work-img-1.png" alt="Fade haircut" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Fade</span>
+                <p>Premium Skin Fade</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="classic">
+              <img src="assets/img/work-img-2.png" alt="Classic cut" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Classic</span>
+                <p>Classic Gentleman Cut</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="beard">
+              <img src="assets/img/work-img-3.png" alt="Beard trim" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Beard</span>
+                <p>Beard Design & Trim</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="fade">
+              <img src="assets/img/work-img-4.png" alt="Fade style" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Fade</span>
+                <p>Low Taper Fade</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="classic">
+              <img src="assets/img/work-img-5.png" alt="Classic style" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Classic</span>
+                <p>Textured Quiff</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="fade">
+              <img src="assets/img/work-img-6.png" alt="Fade cut" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Fade</span>
+                <p>Mid Fade + Line Up</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="beard">
+              <img src="assets/img/work-img-7.png" alt="Beard style" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Beard</span>
+                <p>Full Beard Shape</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="classic">
+              <img src="assets/img/work-img-8.png" alt="Classic haircut" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Classic</span>
+                <p>Pompadour Style</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="fade">
+              <img src="assets/img/work-img-9.png" alt="Fade" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Fade</span>
+                <p>High Skin Fade</p>
+              </div>
+            </div>
+            <div class="swiper-slide work__card" data-category="beard">
+              <img src="assets/img/work-img-10.png" alt="Beard trim" class="work__img">
+              <div class="work__info">
+                <span class="work__tag">Beard</span>
+                <p>Stubble + Fade Combo</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination work__pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== SERVICES SECTION ====================-->
+    <section class="service section" id="service">
+      <div class="container">
+        <h2 class="section__title">OUR SERVICES</h2>
+
+        <div class="service__container grid">
+          <!-- Price List -->
+          <div class="service__prices">
+            <h3 class="service__prices-title">Price List</h3>
+            <ul class="service__list">
+              <li class="service__item">
+                <div class="service__item-left">
+                  <i class="ri-scissors-line service__icon"></i>
+                  <span class="service__name">Adult Haircut</span>
+                </div>
+                <span class="service__price">$40</span>
+              </li>
+              <li class="service__item">
+                <div class="service__item-left">
+                  <i class="ri-scissors-2-line service__icon"></i>
+                  <span class="service__name">Kids Haircut</span>
+                </div>
+                <span class="service__price">$20</span>
+              </li>
+              <li class="service__item">
+                <div class="service__item-left">
+                  <i class="ri-user-line service__icon"></i>
+                  <span class="service__name">Neck Shave</span>
+                </div>
+                <span class="service__price">$35</span>
+              </li>
+              <li class="service__item">
+                <div class="service__item-left">
+                  <i class="ri-knife-line service__icon"></i>
+                  <span class="service__name">Beard Trim</span>
+                </div>
+                <span class="service__price">$15</span>
+              </li>
+              <li class="service__item service__item--featured">
+                <div class="service__item-left">
+                  <i class="ri-magic-line service__icon"></i>
+                  <span class="service__name">Haircut + Shave</span>
+                </div>
+                <div>
+                  <span class="service__price">$70</span>
+                  <span class="service__badge">Best Value</span>
+                </div>
+              </li>
+            </ul>
+            <button class="btn service__book-btn" id="service-book-btn">Book a Service</button>
+          </div>
+
+          <!-- Testimonials Swiper -->
+          <div class="service__testimonial">
+            <h3 class="service__prices-title">What Clients Say</h3>
+            <div class="swiper testimonial__swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial__card">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                  </div>
+                  <p class="testimonial__description">
+                    "Excellent barbershop; the atmosphere feels authentic from the moment you walk in.
+                    The service is professional, and the results are top-notch. Definitely a place
+                    you'll always want to return to."
+                  </p>
+                  <div class="testimonial__author">
+                    <div class="testimonial__avatar">JD</div>
+                    <span class="testimonial__name">John D.</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial__card">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                  </div>
+                  <p class="testimonial__description">
+                    "Excellent atmosphere and top-notch service at all times. The barbers really do
+                    give you the haircut you want. I always leave feeling confident and refreshed.
+                    Highly recommended!"
+                  </p>
+                  <div class="testimonial__author">
+                    <div class="testimonial__avatar">WC</div>
+                    <span class="testimonial__name">Will C.</span>
+                  </div>
+                </div>
+                <div class="swiper-slide testimonial__card">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+                  </div>
+                  <p class="testimonial__description">
+                    "True professionals who have mastered their craft. Flawless fades, impeccable
+                    beard trims, and excellent customer service. Booking is easy, and they're
+                    always punctual."
+                  </p>
+                  <div class="testimonial__author">
+                    <div class="testimonial__avatar">MD</div>
+                    <span class="testimonial__name">Michel D.</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination testimonial__pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== EXPERTS SECTION ====================-->
+    <section class="expert section" id="expert">
+      <div class="container">
+        <h2 class="section__title">MEET OUR BARBERS</h2>
+        <p class="expert__description">
+          Every barber on our team is committed to providing an exceptional grooming experience,
+          ensuring you leave our shop looking and feeling your best.
+        </p>
+
+        <div class="expert__container grid">
+          <article class="expert__card">
+            <div class="expert__img-wrapper">
+              <img src="assets/img/expert-img-1.png" alt="Jonh Deep - Master Barber" class="expert__img">
+              <div class="expert__overlay">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="LinkedIn">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.facebook.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Facebook">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </div>
+            </div>
+            <div class="expert__info">
+              <h3 class="expert__name">Jonh Deep</h3>
+              <span class="expert__profession">Master Barber</span>
+              <div class="expert__stars">
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="expert__card">
+            <div class="expert__img-wrapper">
+              <img src="assets/img/expert-img-2.png" alt="Max Pell - Senior Stylist" class="expert__img">
+              <div class="expert__overlay">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="LinkedIn">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.facebook.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Facebook">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </div>
+            </div>
+            <div class="expert__info">
+              <h3 class="expert__name">Max Pell</h3>
+              <span class="expert__profession">Senior Stylist</span>
+              <div class="expert__stars">
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="expert__card">
+            <div class="expert__img-wrapper">
+              <img src="assets/img/expert-img-3.png" alt="Doe Will - Master Barber" class="expert__img">
+              <div class="expert__overlay">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="LinkedIn">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.facebook.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Facebook">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </div>
+            </div>
+            <div class="expert__info">
+              <h3 class="expert__name">Doe Will</h3>
+              <span class="expert__profession">Master Barber</span>
+              <div class="expert__stars">
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+              </div>
+            </div>
+          </article>
+
+          <article class="expert__card">
+            <div class="expert__img-wrapper">
+              <img src="assets/img/expert-img-4.png" alt="Emyl Larz - Barber" class="expert__img">
+              <div class="expert__overlay">
+                <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="LinkedIn">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Instagram">
+                  <i class="ri-instagram-line"></i>
+                </a>
+                <a href="https://www.facebook.com/bedimcode" target="_blank" rel="noopener" class="expert__social-link"
+                  aria-label="Facebook">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </div>
+            </div>
+            <div class="expert__info">
+              <h3 class="expert__name">Emyl Larz</h3>
+              <span class="expert__profession">Barber</span>
+              <div class="expert__stars">
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-line"></i>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== CONTACT SECTION ====================-->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title">CONTACT US <br> FOR A HAIRCUT</h2>
+        <p class="contact__description">
+          Contact us for a barber service, find us at our nearest location, or write to us
+          through our social media links and book now.
+        </p>
+
+        <div class="contact__container grid">
+          <div class="contact__info">
+            <div class="contact__card">
+              <i class="ri-map-pin-line contact__icon"></i>
+              <div>
+                <h4 class="contact__title">LOCATION</h4>
+                <p class="contact__address" itemprop="address">
+                  128th Street Avenue, Miraflores, <br> Lima - Peru
+                </p>
+              </div>
+            </div>
+
+            <div class="contact__card">
+              <i class="ri-time-line contact__icon"></i>
+              <div>
+                <h4 class="contact__title">OPERATIONAL</h4>
+                <p class="contact__address">
+                  <span itemprop="openingHours" content="Mo-Sa 09:00-20:00">Monday - Saturday: 9am - 8pm</span><br>
+                  <span itemprop="openingHours" content="Su 09:00-18:00">Sunday: 9am - 6pm</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="contact__card">
+              <i class="ri-phone-line contact__icon"></i>
+              <div>
+                <h4 class="contact__title">CALL US AND BOOK</h4>
+                <a href="tel:+1234-9876-00" class="contact__address contact__address--link"
+                  itemprop="telephone">+1234-9876-00</a><br>
+                <a href="tel:+00987654321" class="contact__address contact__address--link"
+                  itemprop="telephone">+00987654321</a>
+              </div>
+            </div>
+
+            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, I'd like to book an appointment!"
+              target="_blank" rel="noopener" class="btn contact__whatsapp">
+              <i class="ri-whatsapp-line"></i> Book Via WhatsApp
+            </a>
+          </div>
+
+          <!-- Contact Form (NEW FEATURE) -->
+          <form class="contact__form" id="contact-form" novalidate>
+            <h3 class="contact__form-title">Send Us a Message</h3>
+            <div class="contact__form-group">
+              <label for="contact-name">Full Name</label>
+              <input type="text" id="contact-name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="contact__form-group">
+              <label for="contact-email">Email Address</label>
+              <input type="email" id="contact-email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="contact__form-group">
+              <label for="contact-service">Service Interested In</label>
+              <select id="contact-service" name="service">
+                <option value="">Select a service...</option>
+                <option value="adult-haircut">Adult Haircut ($40)</option>
+                <option value="kids-haircut">Kids Haircut ($20)</option>
+                <option value="neck-shave">Neck Shave ($35)</option>
+                <option value="beard-trim">Beard Trim ($15)</option>
+                <option value="haircut-shave">Haircut + Shave ($70)</option>
+              </select>
+            </div>
+            <div class="contact__form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="4" placeholder="Tell us more..."></textarea>
+            </div>
+            <button type="submit" class="btn contact__submit">
+              <i class="ri-send-plane-line"></i> Send Message
+            </button>
+            <p class="contact__form-success" id="form-success">✅ Message sent! We'll get back to you soon.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__container grid">
+        <div class="footer__brand">
+          <a href="#home" class="footer__logo">
+            <i class="ri-scissors-line"></i> BARBERSHOP
+          </a>
+          <p class="footer__description">
+            Where your haircut style <br> becomes tradition.
+          </p>
+          <a href="mailto:barbershop@email.com" class="footer__email" itemprop="email">
+            <i class="ri-mail-line"></i> barbershop@email.com
+          </a>
+          <div class="footer__socials">
+            <a href="https://www.facebook.com/bedimcode" target="_blank" rel="noopener" aria-label="Facebook"
+              class="footer__social"><i class="ri-facebook-fill"></i></a>
+            <a href="https://www.instagram.com/bedimcode/" target="_blank" rel="noopener" aria-label="Instagram"
+              class="footer__social"><i class="ri-instagram-line"></i></a>
+            <a href="https://x.com/bedimcode/" target="_blank" rel="noopener" aria-label="Twitter/X"
+              class="footer__social"><i class="ri-twitter-x-line"></i></a>
+            <a href="https://www.youtube.com/@Bedimcode/" target="_blank" rel="noopener" aria-label="YouTube"
+              class="footer__social"><i class="ri-youtube-line"></i></a>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <h4 class="footer__title">Menu</h4>
+          <ul class="footer__links">
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">About Us</a></li>
+            <li><a href="#work" class="footer__link">Works</a></li>
+            <li><a href="#service" class="footer__link">Services</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__group">
+          <h4 class="footer__title">Write to Us</h4>
+          <ul class="footer__links">
+            <li><a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank"
+                rel="noopener" class="footer__link"><i class="ri-whatsapp-line"></i> WhatsApp</a></li>
+            <li><a href="https://m.me/bedimcode" target="_blank" rel="noopener" class="footer__link"><i
+                  class="ri-messenger-line"></i> Messenger</a></li>
+            <li><a href="https://web.telegram.org" target="_blank" rel="noopener" class="footer__link"><i
+                  class="ri-telegram-line"></i> Telegram</a></li>
+            <li><a href="mailto:barbershop@email.com" class="footer__link"><i class="ri-mail-line"></i> Gmail</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p class="footer__copy">&#169; All Rights Reserved By Laalucode</p>
+      </div>
+    </div>
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="#home" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+  <!--========== BOOKING MODAL (NEW FEATURE) ==========-->
+  <div class="modal__overlay" id="modal-overlay">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal__close" id="modal-close" aria-label="Close modal">
+        <i class="ri-close-large-line"></i>
+      </button>
+      <div class="modal__header">
+        <i class="ri-scissors-line modal__icon"></i>
+        <h2 class="modal__title" id="modal-title">Book an Appointment</h2>
+        <p class="modal__subtitle">Fill in your details and we'll confirm your slot</p>
+      </div>
+      <form class="modal__form" id="booking-form" novalidate>
+        <div class="modal__group">
+          <label for="book-name">Full Name <span>*</span></label>
+          <input type="text" id="book-name" name="name" placeholder="Your full name" required>
+        </div>
+        <div class="modal__group">
+          <label for="book-phone">Phone Number <span>*</span></label>
+          <input type="tel" id="book-phone" name="phone" placeholder="+1 234 567 890" required>
+        </div>
+        <div class="modal__row">
+          <div class="modal__group">
+            <label for="book-date">Preferred Date <span>*</span></label>
+            <input type="date" id="book-date" name="date" required>
+          </div>
+          <div class="modal__group">
+            <label for="book-time">Preferred Time <span>*</span></label>
+            <select id="book-time" name="time" required>
+              <option value="">Select time</option>
+              <option>9:00 AM</option>
+              <option>10:00 AM</option>
+              <option>11:00 AM</option>
+              <option>12:00 PM</option>
+              <option>1:00 PM</option>
+              <option>2:00 PM</option>
+              <option>3:00 PM</option>
+              <option>4:00 PM</option>
+              <option>5:00 PM</option>
+              <option>6:00 PM</option>
+            </select>
+          </div>
+        </div>
+        <div class="modal__group">
+          <label for="book-service">Select Service <span>*</span></label>
+          <select id="book-service" name="service" required>
+            <option value="">Choose a service...</option>
+            <option value="adult-haircut">Adult Haircut — $40</option>
+            <option value="kids-haircut">Kids Haircut — $20</option>
+            <option value="neck-shave">Neck Shave — $35</option>
+            <option value="beard-trim">Beard Trim — $15</option>
+            <option value="haircut-shave">Haircut + Shave — $70</option>
+          </select>
+        </div>
+        <div class="modal__group">
+          <label for="book-barber">Preferred Barber</label>
+          <select id="book-barber" name="barber">
+            <option value="">No preference</option>
+            <option>Jonh Deep</option>
+            <option>Max Pell</option>
+            <option>Doe Will</option>
+            <option>Emyl Larz</option>
+          </select>
+        </div>
+        <button type="submit" class="btn modal__submit">Confirm Booking</button>
+        <p class="modal__success" id="booking-success">🎉 Booking confirmed! We'll contact you shortly.</p>
+      </form>
+    </div>
+  </div>
+
+  <!--=============== GSAP ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/ScrollTrigger.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
