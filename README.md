@@ -1,6 +1,6 @@
 # Responsive Barbershop Website
 
-This project is part of a step-by-step YouTube tutorial in which we build a responsive barbershop website from scratch using HTML, CSS and JavaScript.
+This project is part of a step-by-step in which we build a responsive barbershop website from scratch using HTML, CSS and JavaScript.
 
 ## 📌 Project Features
 - Fully responsive barberhsop website (Mobile First Methodology).
