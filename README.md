@@ -2,8 +2,6 @@
 
 This project is part of a step-by-step YouTube tutorial in which we build a responsive barbershop website from scratch using HTML, CSS and JavaScript.
 
-## 🎬 [Watch the Demo & Code](https://youtu.be/7zjrsmMYPyY)
-
 ## 📌 Project Features
 - Fully responsive barberhsop website (Mobile First Methodology).
 - Clear and semantic HTML structure.
@@ -17,14 +15,8 @@ This project is part of a step-by-step YouTube tutorial in which we build a resp
 2. Click **Download ZIP**.
 3. Extract the ZIP file and open the project in your code editor.
 
-## 📥 Clone or Fork the repository
-You can **clone** the repository to your local machine or **fork** it in your GitHub account to get all the project's resources.
+*This project is a part of project*
+[https://jovial-figolla-aeaa12.netlify.app/]
 
-```bash
-# Clone the repository using HTTPS
-git clone https://github.com/bedimcode/responsive-barbershop-website.git
-```
-
-Designed & developed with ❤️ by **[Bedimcode](https://www.youtube.com/@Bedimcode)**
 
 ![preview img](/preview.png)
