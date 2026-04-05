@@ -16,7 +16,7 @@ This project is part of a step-by-step in which we build a responsive barbershop
 3. Extract the ZIP file and open the project in your code editor.
 
 *This project is a part of project*
-[https://jovial-figolla-aeaa12.netlify.app/]
+[(https://adorable-pastelito-fc4d86.netlify.app/)]
 
 
 ![preview img](/preview.png)
