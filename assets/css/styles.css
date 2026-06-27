@@ -1564,3 +1564,20 @@ body.dark-mode .modal__success {
   .container { max-width: 1300px; }
   .home__logo-img { width: 380px; }
 }
+
+/* ── Assinatura Onda Tech ── */
+.footer__signature {
+  font-size: .72rem;
+  color: rgba(255,255,255,.3);
+  margin-top: 6px;
+  font-family: monospace;
+  letter-spacing: .03em;
+}
+.footer__signature a {
+  color: #e53935;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s;
+}
+.footer__signature a:hover { color: #ff6b6b; }
+.footer__sig-tag { color: rgba(255,255,255,.2); font-size: .68rem; }
